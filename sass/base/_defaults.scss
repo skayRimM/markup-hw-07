@@ -1,0 +1,27 @@
+body {
+  font-family: $font-page;
+  background: $main-color;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+a,
+ul,
+button {
+  list-style-type: none;
+  text-decoration: none;
+  border: transparent;
+  outline: transparent;
+}

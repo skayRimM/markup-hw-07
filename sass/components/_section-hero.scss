@@ -1,0 +1,45 @@
+.section-hero {
+  padding: 200px 0;
+
+  text-align: center;
+
+  background-image: radial-gradient(
+      ellipse at center,
+      $hero-button,
+      $hero-button
+    ),
+    url(../images/main.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__title {
+    margin: 0 0 30px 0;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: $main-color;
+  }
+
+  &__button {
+    cursor: pointer;
+
+    padding: 10px 32px;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+
+    color: $main-color;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    background: $additional-color;
+  }
+}

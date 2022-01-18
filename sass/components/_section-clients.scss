@@ -1,0 +1,59 @@
+.section-clients {
+  padding: 94px 0;
+
+  &__title {
+    margin: 0 0 50px 0;
+
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: $navigation-color;
+  }
+
+  &__item {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__company {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    &-item {
+      display: flex;
+      width: 170px;
+      height: 90px;
+
+      justify-content: center;
+      align-items: center;
+
+      border: 1px solid $social-color;
+      border-radius: 4px;
+      box-sizing: border-box;
+
+      color: $social-color;
+
+      transition: color $time-function $cubic-function;
+      transition: border-color $time-function $cubic-function;
+
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+
+      &:hover,
+      &:focus {
+        border-color: $additional-color;
+        color: $additional-color;
+      }
+    }
+
+    &-picture {
+      fill: currentColor;
+    }
+  }
+}
